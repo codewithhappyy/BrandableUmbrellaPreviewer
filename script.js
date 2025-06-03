@@ -79,10 +79,10 @@ function handleLogoUpload(e) {
     reader.readAsDataURL(file);
 }
 
-// Position Logo at the bottom of the umbrella
+// Position Logo
 function positionLogo() {
      logoPreview.style.position = 'absolute';
-    logoPreview.style.bottom = '44px'; // Adjusted bottom value
-    logoPreview.style.left = '240px'; // Adjusted left value
+    logoPreview.style.bottom = '44px'; 
+    logoPreview.style.left = '240px'; 
     logoPreview.style.transform = 'scale(1)';
 }
